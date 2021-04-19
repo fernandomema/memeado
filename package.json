@@ -6,11 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "now-build": "cp canvas_lib64/*so.1 node_modules/canvas/build/Release/"
   },
   "dependencies": {
     "canvas": "^2.7.0",
-    "next": "10.0.1",
+    "next": "10.x",
     "react": "17.x",
     "react-dom": "17.x"
   }
