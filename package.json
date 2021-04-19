@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "canvas": "^2.7.0",
-    "next": "10.x",
+    "next": "10.0.1",
     "react": "17.x",
     "react-dom": "17.x"
   }
