@@ -1,5 +1,5 @@
 //const {canvas} = require("canvas-aws-prebuilt");
-const { createCanvas, loadImage } = require('canvas')
+const { createCanvas, loadImage } = require('canvas-aws-prebuilt')
 
 export default async (req, res) => {
   var text = splitter(req.body?.text || req.query?.text || '', 16);
