@@ -1,7 +1,10 @@
 //const {canvas} = require("canvas-aws-prebuilt");
-const { createCanvas, loadImage } = require('canvas')
+import path from 'path'
+const { createCanvas, loadImage, registerFont } = require('canvas')
 
 export default async (req, res) => {
+  const resolved = path.resolve('./fonts/impact.ttf')
+  registerFont(resolved, { family: 'Impact' })
   var text = splitter(req.body?.text || req.query?.text || '', 16);
   var width = 634;
   var height = 741;
@@ -10,7 +13,7 @@ export default async (req, res) => {
 
   var template = await loadImage('https://i.pinimg.com/736x/25/2a/04/252a045199e33164a8b7577fc001851a.jpg');
   ctx.drawImage(template, 0, 0);
-  ctx.font = '25px serif';
+  ctx.font = '25px Impact';
   ctx.fillText(text[0] || '', 61, 100);
   ctx.fillText(text[1] || '', 61, 125);
   ctx.fillText(text[2] || '', 61, 150);
