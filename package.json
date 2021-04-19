@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "now-build": "cp canvas_lib64/*so.1 node_modules/canvas/build/Release/"
+    "start": "next start"
   },
   "dependencies": {
     "canvas": "^2.7.0",
