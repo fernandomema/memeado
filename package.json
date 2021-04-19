@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "canvas": "^2.7.0",
     "next": "10.x",
     "react": "17.x",
     "react-dom": "17.x"
