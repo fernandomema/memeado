@@ -5,24 +5,23 @@ const { createCanvas, loadImage, registerFont } = require('canvas')
 export default async (req, res) => {
   const resolved = path.resolve('./fonts/impact.ttf')
   registerFont(resolved, { family: 'Impact' })
-  var text = splitter(req.body?.text || req.query?.text || '', 16);
-  var width = 634;
-  var height = 741;
+  var text1 = splitter(req.body?.text1 || req.query?.text1 || '', 32);
+  var text2 = splitter(req.body?.text2 || req.query?.text2 || '', 32);
+  var text3 = splitter(req.body?.text3 || req.query?.text3 || '', 32);
+  var width = 563;
+  var height = 548;
   const canvas = createCanvas(width, height)
   const ctx = canvas.getContext('2d')
 
-  var template = await loadImage('https://i.pinimg.com/736x/25/2a/04/252a045199e33164a8b7577fc001851a.jpg');
+  var template = await loadImage(path.resolve(`./public/assets/img/templates/fakeGoogleAutocomplete.png`));
   ctx.drawImage(template, 0, 0);
   ctx.font = '25px Impact';
-  ctx.fillText(text[0] || '', 61, 100);
-  ctx.fillText(text[1] || '', 61, 125);
-  ctx.fillText(text[2] || '', 61, 150);
-  ctx.fillText(text[3] || '', 61, 175);
-  ctx.fillText(text[4] || '', 61, 200);
-  ctx.fillText(text[5] || '', 61, 225);
-  ctx.fillText(text[6] || '', 61, 250);
-  ctx.fillText(text[7] || '', 61, 275);
-  ctx.fillText(text[8] || '', 61, 300);
+  ctx.fillText(text1[0] || '', 25, 255);
+
+  ctx.fillText(text2[0] || '', 25, 320);
+
+  ctx.fillText(text3[0] || '', 25, 380);
+  
   res.statusCode = 200
   //res.json({ name: 'John Doe' })
   res.writeHead(200, { 'Content-Type': 'image/png' });
