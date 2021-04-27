@@ -1,6 +1,6 @@
 # Drake Like Hate
 
-Generates PetPet meme
+Generates Drake like hates meme
 
 **URL** : `/api/drakelikehate`
 
@@ -32,4 +32,4 @@ Generates PetPet meme
 
 **Content example**
 
-![PetPet example image](/api/drakelikehate?text1=Example%20text%201&text2=Example%20text%202)
+![drakelikehate example image](/api/drakelikehate?text1=Example%20text%201&text2=Example%20text%202)

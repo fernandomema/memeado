@@ -1,6 +1,6 @@
 # Spongebob
 
-Generates PetPet meme
+Generates Sponge bob meme
 
 **URL** : `/api/spongebob`
 
@@ -30,4 +30,4 @@ Generates PetPet meme
 
 **Content example**
 
-![PetPet example image](/api/spongebob?text=Example%20text)
+![Spongebob example image](/api/spongebob?text=Example%20text)

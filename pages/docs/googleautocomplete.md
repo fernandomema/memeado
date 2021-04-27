@@ -1,8 +1,8 @@
-# Spongebob
+# Google autocomplete
 
-Generates PetPet meme
+Generates fake google autocomplete
 
-**URL** : `/api/spongebob`
+**URL** : `/api/googleautocomplete`
 
 **Method** : `GET`
 
@@ -34,4 +34,4 @@ Generates PetPet meme
 
 **Content example**
 
-![PetPet example image](/api/googleautocomplete?text1=search&text2=search%20autocomplete%201&text3=search%20autocomplete%202)
+![googleautocomplete example image](/api/googleautocomplete?text1=search&text2=search%20autocomplete%201&text3=search%20autocomplete%202)

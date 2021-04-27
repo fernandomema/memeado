@@ -1,6 +1,6 @@
-# seteniaquedecir
+# Se tenia que decir
 
-Generates PetPet meme
+Generates Se tenia que decir meme
 
 **URL** : `/api/seteniaquedecir`
 
@@ -30,4 +30,4 @@ Generates PetPet meme
 
 **Content example**
 
-![PetPet example image](/api/seteniaquedecir?text=Example%20text)
+![seteniaquedecir example image](/api/seteniaquedecir?text=Example%20text)
