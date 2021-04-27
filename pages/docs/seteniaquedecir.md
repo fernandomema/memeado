@@ -1,8 +1,8 @@
-# PetPet
+# seteniaquedecir
 
 Generates PetPet meme
 
-**URL** : `/api/petpet`
+**URL** : `/api/seteniaquedecir`
 
 **Method** : `GET`
 
@@ -12,7 +12,7 @@ Generates PetPet meme
 
 ```json
 {
-    "image": "[Image URL]"
+    "text": "[Plain text]"
 }
 ```
 
@@ -20,7 +20,7 @@ Generates PetPet meme
 
 ```json
 {
-    "image": "https://picsum.photos/512"
+    "text": "Example text"
 }
 ```
 
@@ -30,4 +30,4 @@ Generates PetPet meme
 
 **Content example**
 
-![PetPet example image](http://localhost:3000/api/petpet?image=https://picsum.photos/512)
+![PetPet example image](http://localhost:3000/api/seteniaquedecir?text=Example%20text)
