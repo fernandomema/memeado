@@ -32,4 +32,4 @@ Generates PetPet meme
 
 **Content example**
 
-![PetPet example image](http://localhost:3000/api/drakelikehate?text1=Example%20text%201&text2=Example%20text%202)
+![PetPet example image](/api/drakelikehate?text1=Example%20text%201&text2=Example%20text%202)

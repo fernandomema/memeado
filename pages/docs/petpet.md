@@ -30,4 +30,4 @@ Generates PetPet meme
 
 **Content example**
 
-![PetPet example image](http://localhost:3000/api/petpet?image=https://picsum.photos/512)
+![PetPet example image](/api/petpet?image=https://picsum.photos/512)
