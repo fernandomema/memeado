@@ -20,4 +20,4 @@ The easiest way to deploy app is to use the [Vercel Platform](https://vercel.com
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-![Page Speed](https://pagespeed-insights.herokuapp.com/?url=https://memeado.vercel.app/)
+![Page Speed](public/assets/img/docs/pageSpeed.svg)
